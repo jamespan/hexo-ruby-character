@@ -1,6 +1,6 @@
 {
   "name": "hexo-ruby-character",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Ruby charater tag for Hexo",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:JamesPan/hexo-ruby-character.git"
+    "url": "git+https://github.com/JamesPan/hexo-ruby-character.git"
   },
   "keywords": [
     "hexo",

@@ -1,6 +1,6 @@
 var pinyin = require("pinyin");
 
-hexo.extend.tag.register('ruby', function(args, option) {
+hexo.extend.tag.register('ruby', function(args) {
 
   var splited = args.join(' ').split('|');
 
@@ -13,7 +13,7 @@ hexo.extend.tag.register('ruby', function(args, option) {
 
   var pinyinic_ruby = [].concat.apply([],pinyin(ruby));
 
-  var ruby_result = "<ruby>" + origin + "<rp>（</rp><rt>" + pinyinic_ruby.join(' ') + "</rt><rp>）</rp></ruby>"
+  var ruby_result = "<ruby>" + origin + "<rp> (</rp><rt>" + pinyinic_ruby.join(' ') + "</rt><rp>) </rp></ruby>"
   
   return ruby_result;
 });

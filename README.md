@@ -10,17 +10,17 @@ npm install hexo-ruby-character --save
 
 ## Usage ##
 
-`{% ruby Base|top %}` → <ruby>Base<rp>（</rp><rt>top</rt><rp>）</rp></ruby>
+`{% ruby Base|top %}` → <ruby>Base<rp> (</rp><rt>top</rt><rp>) </rp></ruby>
 
-Specifically, if the top field is in Chinese, it while be convert to pinyin, because the pinyin chatater with heads are not easy to type.
+Specifically, if the top field is in Chinese characters, it while be converted to Chinese pinyin, because the pinyin chatater with heads are not easy to type.
 
-Following is the example.
+Followings are the examples.
 
-`{% ruby 佐天泪子|掀群狂魔 %}`  → <ruby>佐天泪子<rp>（</rp><rt>xiān qún kuáng mó</rt><rp>）</rp></ruby>
+`{% ruby 佐天泪子|掀裙狂魔 %}`  → <ruby>佐天泪子<rp> (</rp><rt>xiān qún kuáng mó</rt><rp>) </rp></ruby>
 
-Other language like Japanese is also supported.
+Other languages like Japanese is also supported.
 
-`{% ruby 超電磁砲|レールガン %}` → <ruby>超電磁砲<rp>（</rp><rt>レールガン</rt><rp>）</rp></ruby>
+`{% ruby 超電磁砲|レールガン %}` → <ruby>超電磁砲<rp> (</rp><rt>レールガン</rt><rp>) </rp></ruby>
 
 ## Known issues ##
 
