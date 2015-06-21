@@ -1,0 +1,26 @@
+{
+  "name": "hexo-ruby-character",
+  "version": "1.0.0",
+  "description": "Ruby charater tag for Hexo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JamesPan/hexo-ruby-character.git"
+  },
+  "keywords": [
+    "hexo",
+    "ruby-charater"
+  ],
+  "author": "Pan Jiabang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JamesPan/hexo-ruby-character/issues"
+  },
+  "homepage": "https://github.com/JamesPan/hexo-ruby-character",
+  "dependencies": {
+    "pinyin": "~2.5.0"
+  }
+}
