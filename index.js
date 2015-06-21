@@ -11,7 +11,9 @@ hexo.extend.tag.register('ruby', function(args) {
   	ruby = splited[1].trim();
   }
 
-  var pinyinic_ruby = [].concat.apply([],pinyin(ruby));
+  var pinyinic_ruby = [].concat.apply([],pinyin(ruby), {
+  	segment: true
+  });
 
   var ruby_result = "<ruby>" + origin + "<rp> (</rp><rt>" + pinyinic_ruby.join(' ') + "</rt><rp>) </rp></ruby>"
   
