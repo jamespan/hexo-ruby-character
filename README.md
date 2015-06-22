@@ -1,9 +1,8 @@
 # hexo-ruby-character #
 
-[![npm](https://img.shields.io/npm/v/hexo-ruby-character.svg?style=plastic)](https://npmjs.org/package/hexo-ruby-character) [![npm](https://img.shields.io/npm/dm/hexo-ruby-character.svg?style=plastic)](https://npmjs.org/package/hexo-ruby-character) 
+[![npm](https://img.shields.io/npm/v/hexo-ruby-character.svg?style=plastic)](https://npmjs.org/package/hexo-ruby-character) [![npm](https://img.shields.io/npm/dm/hexo-ruby-character.svg?style=plastic)](https://npmjs.org/package/hexo-ruby-character)
 
-
-Ruby charater tag for Hexo, inspired by the [Ruby templete](http://zh.moegirl.org/Template:Ruby) of [萌娘百科](http://zh.moegirl.org).
+Ruby character tag for Hexo, inspired by the [Ruby template](http://zh.moegirl.org/Template:Ruby) of [萌娘百科](http://zh.moegirl.org).
 
 ## Install ##
 
@@ -19,7 +18,7 @@ Specifically, if the top field is in Chinese characters, it while be converted t
 
 Followings are the examples.
 
-`{% ruby 佐天泪子|掀裙狂魔 %}`  → <ruby>佐天泪子<rp> (</rp><rt>xiān qún kuáng mó</rt><rp>) </rp></ruby>
+`{% ruby 佐天泪子|掀裙狂魔 %}` → <ruby>佐天泪子<rp> (</rp><rt>xiān qún kuáng mó</rt><rp>) </rp></ruby>
 
 Other languages like Japanese is also supported.
 
