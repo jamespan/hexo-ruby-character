@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/JamesPan/hexo-ruby-character",
   "dependencies": {
-    "pinyin": "~2.5.0"
+    "pinyin": "~2.6.2"
   }
 }
