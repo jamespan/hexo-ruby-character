@@ -1,6 +1,7 @@
 # hexo-ruby-character #
 
 [![npm](https://img.shields.io/npm/v/hexo-ruby-character.svg?style=plastic)](https://npmjs.org/package/hexo-ruby-character) [![npm](https://img.shields.io/npm/dm/hexo-ruby-character.svg?style=plastic)](https://npmjs.org/package/hexo-ruby-character)
+[![npm](https://img.shields.io/npm/dt/hexo-ruby-character.svg?style=plastic)](https://npmjs.org/package/hexo-ruby-character)
 
 Ruby character tag for Hexo, inspired by the [Ruby template](http://zh.moegirl.org/Template:Ruby) of [萌娘百科](http://zh.moegirl.org).
 
